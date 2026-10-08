@@ -1,0 +1,204 @@
+{
+  "projectName": "Skyline Residences",
+  "unitName": "3 BHK Apartment",
+  "autoRotateSpeed": 4,
+  "startRoom": "living",
+  "floorPlan": {
+    "file": "architectural-2bhk-floor-plan-muzetuab.png",
+    "width": 1312,
+    "height": 1199
+  },
+  "video": {
+    "file": "",
+    "youtubeId": ""
+  },
+  "brochure": {
+    "file": "",
+    "downloadName": "Brochure.pdf"
+  },
+  "rooms": [
+    {
+      "id": "living",
+      "name": "Living Room",
+      "pano": "https://i.yourimageshare.com/oZr7wheKh2.webp",
+      "plan": {
+        "x": 0.8025,
+        "y": 0.3559
+      },
+      "headingOffset": 0,
+      "initialYaw": 0,
+      "hotspots": [
+        {
+          "id": "hs-muzf327qrcin",
+          "target": "dining",
+          "yaw": 0,
+          "pitch": -12
+        }
+      ]
+    },
+    {
+      "id": "dining",
+      "name": ".",
+      "pano": "https://i.yourimageshare.com/C8ZzxW80jt.webp",
+      "plan": null,
+      "headingOffset": 0,
+      "initialYaw": -147,
+      "hotspots": [
+        {
+          "id": "hs-5",
+          "target": "living",
+          "yaw": -144.60000000000002,
+          "pitch": -8.1
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "pano": "kitchen.jpg",
+      "plan": null,
+      "headingOffset": 0,
+      "initialYaw": 0,
+      "hotspots": [
+        {
+          "id": "hs-8",
+          "target": "dining",
+          "yaw": -90,
+          "pitch": -12
+        },
+        {
+          "id": "hs-9",
+          "target": "bedroom-3",
+          "yaw": -2,
+          "pitch": -12
+        }
+      ]
+    },
+    {
+      "id": "master-bedroom",
+      "name": "Master Bedroom",
+      "pano": "https://i.yourimageshare.com/u9z7oxmeol.webp",
+      "plan": {
+        "x": 0.2205,
+        "y": 0.2952
+      },
+      "headingOffset": 3,
+      "initialYaw": 0,
+      "hotspots": [
+        {
+          "id": "hs-10",
+          "target": "living",
+          "yaw": 162,
+          "pitch": -12
+        },
+        {
+          "id": "hs-11",
+          "target": "master-bath",
+          "yaw": -33.39999999999998,
+          "pitch": -6.9
+        }
+      ]
+    },
+    {
+      "id": "master-bath",
+      "name": "_",
+      "pano": "https://i.yourimageshare.com/A8zVgUlyew.webp",
+      "plan": null,
+      "headingOffset": 0,
+      "initialYaw": 0,
+      "hotspots": [
+        {
+          "id": "hs-12",
+          "target": "master-bedroom",
+          "yaw": 76.89999999999998,
+          "pitch": -13.7
+        },
+        {
+          "id": "hs-muzfnqqndsun",
+          "target": "living",
+          "yaw": 103.5,
+          "pitch": -9.1
+        }
+      ]
+    },
+    {
+      "id": "bedroom-2",
+      "name": "Bedroom 2",
+      "pano": "https://i.yourimageshare.com/vhRiacSG8w.webp",
+      "plan": null,
+      "headingOffset": 0,
+      "initialYaw": 0,
+      "hotspots": [
+        {
+          "id": "hs-13",
+          "target": "dining",
+          "yaw": 173,
+          "pitch": -12
+        }
+      ]
+    },
+    {
+      "id": "bedroom-3",
+      "name": "Bedroom 3",
+      "pano": "bedroom-3.jpg",
+      "plan": null,
+      "headingOffset": 0,
+      "initialYaw": 0,
+      "hotspots": [
+        {
+          "id": "hs-14",
+          "target": "kitchen",
+          "yaw": 178,
+          "pitch": -12
+        }
+      ]
+    },
+    {
+      "id": "common-bath",
+      "name": "Common Bedroom",
+      "pano": "https://i.yourimageshare.com/NYT5hyzUzJ.webp",
+      "plan": {
+        "x": 0.5293,
+        "y": 0.2847
+      },
+      "headingOffset": 0,
+      "initialYaw": 0,
+      "hotspots": [
+        {
+          "id": "hs-15",
+          "target": "living",
+          "yaw": -148,
+          "pitch": -12
+        },
+        {
+          "id": "hs-muzfs81mvu2g",
+          "target": "balcony",
+          "yaw": 30.600000000000023,
+          "pitch": -7.8
+        }
+      ]
+    },
+    {
+      "id": "balcony",
+      "name": "..",
+      "pano": "https://i.yourimageshare.com/UHR5DtU2he.webp",
+      "plan": null,
+      "headingOffset": 0,
+      "initialYaw": 0,
+      "hotspots": [
+        {
+          "id": "hs-16",
+          "target": "living",
+          "yaw": -52.30000000000001,
+          "pitch": -0.8
+        },
+        {
+          "id": "hs-muzfupqdkeuo",
+          "target": "common-bath",
+          "yaw": -72.69999999999999,
+          "pitch": -4.4
+        }
+      ]
+    }
+  ]
+}
